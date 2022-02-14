@@ -28,9 +28,9 @@ else if (n1 == n2 && n1 == n3)
 }
 else if (n1 == n2)
 {
-    Console.WriteLine("Максимальное число повторяется и равно" + n1);
+    Console.WriteLine("Максимальное число повторяется и равно " + n1);
 }
-else if (n1 == n3)
+else
 {
-    Console.WriteLine("Максимальное число повторяется и равно" + n1);
+    Console.WriteLine("Максимальное число повторяется и равно " + n1);
 }
