@@ -3,11 +3,9 @@ int MaxOfTwo(int max)
 {
     int firstDigit = max % 10;
     int secondDigit = max / 10;
-    int result = firstDigit;
-
+    int result = secondDigit;
     if (firstDigit > secondDigit) result = firstDigit;
-    else if (secondDigit > firstDigit) result = secondDigit;
-return result;
+    return result;
 }
 int n = new Random().Next(10, 100);
 Console.WriteLine("Сгенерированное число: " + n);
