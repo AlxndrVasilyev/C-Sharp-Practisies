@@ -10,6 +10,8 @@ for (int I = 2; B > I; I++)
 }
 Console.WriteLine(result);
 
+// Ниже второй вариант
+
 // Console.WriteLine("Задайте число: ");
 // int A = int.Parse(Console.ReadLine());
 // Console.WriteLine("Задайте степень: ");
