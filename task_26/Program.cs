@@ -11,7 +11,7 @@ for (int I = 1; B > I; I++)
 }
 Console.WriteLine($"Число {A} в степени {B} = {result}");
 
-// Ниже второй вариант
+// Ниже вариант через while
 
 // Console.WriteLine("Задайте число: ");
 // int A = int.Parse(Console.ReadLine());
