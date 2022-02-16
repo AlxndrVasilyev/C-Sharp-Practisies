@@ -7,9 +7,6 @@ int b = int.Parse(Console.ReadLine());
 if (b == 0) Console.WriteLine("На ноль делить нельзя, перезапустите программу");
 else
 {
-    int Div = a % b;
-    {
-        if (Div == 0) Console.WriteLine(a + " кратно " + b);
-        else Console.WriteLine(a + " не кратно " + b + " и остаток от деления на целое = " + Div);
-    }
+    if (a % b == 0) Console.WriteLine(a + " кратно " + b);
+    else Console.WriteLine(a + " не кратно " + b + " и остаток от деления на целое = " + a % b);
 }
