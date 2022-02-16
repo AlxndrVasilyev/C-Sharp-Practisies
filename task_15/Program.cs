@@ -1,8 +1,8 @@
 ﻿// Дано число. Проверить кратно ли оно 7 и 23
 Console.WriteLine("Задайте число: ");
 int n = int.Parse(Console.ReadLine());
-if (n%7 == 0 && n%23 == 0) Console.WriteLine(true);
-else Console.WriteLine (false);
+if (n % 7 == 0 && n % 23 == 0) Console.WriteLine(true);
+else Console.WriteLine(false);
 
 // switch (n % 7)
 // {
