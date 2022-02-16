@@ -4,7 +4,8 @@ Console.WriteLine("Задайте первое число: ");
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Задайте второе число: ");
 int b = int.Parse(Console.ReadLine());
-if (b == 0) Console.WriteLine("На ноль делить нельзя, перезапустите программу");
+if (b > a) Console.WriteLine("Второе число больше первого, кратность целого числа > 0 невозможна");
+else if (b == 0) Console.WriteLine("На ноль делить нельзя, перезапустите программу");
 else
 {
     if (a % b == 0) Console.WriteLine(a + " кратно " + b);
