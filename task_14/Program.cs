@@ -8,8 +8,11 @@ int LastDigit(int num)
 Console.WriteLine("Введите любое число");
 int num = int.Parse(Console.ReadLine());
 if (num < 100) Console.WriteLine("Число не является трёхзначным");
-while (num >= 1000)
+else
 {
-    num = num / 10;
+    while (num >= 1000)
+    {
+        num = num / 10;
+    }
+    Console.WriteLine("Третья цифра в числе: " + LastDigit(num));
 }
-Console.WriteLine("Третья цифра в числе: " + LastDigit(num));
