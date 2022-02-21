@@ -6,7 +6,7 @@ void FillArray(double[] array)
     int index = 0;
     for (index = 0; index < length; index++)
     {
-        array[index] = new Random().Next(-100,100);
+        array[index] = new Random().Next(-100, 100);
     }
 }
 
