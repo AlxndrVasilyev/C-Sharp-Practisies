@@ -65,6 +65,7 @@ Console.WriteLine("Введите количество строк");
 int m = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов");
 int n = int.Parse(Console.ReadLine());
+
 int[,] array = new int[m, n];
 
 FillArray(array);
